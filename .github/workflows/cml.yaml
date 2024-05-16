@@ -19,4 +19,3 @@ jobs:
           cml comment create report.md
       
           cp report.md ../report.md
-          cml-send-comment --body "Here's the latest model report" --path ../report.md
