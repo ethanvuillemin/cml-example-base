@@ -18,5 +18,3 @@ jobs:
           echo '![](./plot.png "Confusion Matrix")' >> report.md
           cp report.md ../generate_report.md
           cml comment create report.md
-      
-          cml create report.md
